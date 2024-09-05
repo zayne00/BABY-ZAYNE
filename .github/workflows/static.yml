@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gender Reveal Party</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #a2c2e6, #f4b6c2); /* Blue and pink gradient */
+            text-align: center;
+            color: #333;
+            overflow-x: hidden;
+        }
+        .container {
+            padding: 20px;
+        }
+        .confetti {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://www.w3schools.com/w3images/confetti.png') repeat;
+            z-index: -1;
+            opacity: 0.3;
+        }
+        .balloons {
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            width: 80%;
+            height: 80%;
+            background: url('https://www.w3schools.com/w3images/balloons.jpg') no-repeat center center;
+            background-size: cover;
+            z-index: -2;
+            opacity: 0.5;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #d32f2f; /* Red color for emphasis */
+        }
+        p {
+            font-size: 1.2em;
+        }
+        .image-container {
+            margin: 20px 0;
+        }
+        .image-container img {
+            width: 50%;
+            max-width: 600px;
+            height: auto;
+            border: 5px solid #fff;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="confetti"></div>
+    <div class="balloons"></div>
+
+    <div class="container">
+        <h1>Gender Reveal Party!</h1>
+        <p>Join us for a special moment as we reveal the gender of our baby!</p>
+        <div class="image-container">
+            <img src="FORMAL INVITATION!.png" alt="Formal Invitation">
+        </div>
+        <p><strong>Time:</strong> Lunch</p>
+        <p><strong>Date:</strong> September 7, 2024</p>
+        <p><strong>Venue:</strong> Alex III, Dagot, Banawe, Street QC, Metro Manila</p>
+    </div>
+</body>
+</html>
